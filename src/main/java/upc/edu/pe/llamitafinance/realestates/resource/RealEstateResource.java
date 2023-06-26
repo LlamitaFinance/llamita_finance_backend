@@ -9,7 +9,6 @@ import lombok.*;
 @AllArgsConstructor
 public class RealEstateResource {
     private Long id;
-    private String textQuery;
-    private Integer initialSamples;
-    private Long authorId;
+    private String email;
+    private String password;
 }

@@ -9,7 +9,10 @@ import lombok.*;
 @AllArgsConstructor
 public class PaymentResource {
     private Long id;
-    private String textQuery;
-    private Integer initialSamples;
-    private Long authorId;
+    private Long credit;
+    private Number interestRate;
+    private Integer nPeriods;
+    private Integer gracePeriod;
+    private String couponPayment;
+    private Long customerId;
 }

@@ -24,15 +24,10 @@ public class RealEstate extends AuditModel {
     @NotNull
     @NotBlank
     @Size(max = 100)
-    private String textQuery;
+    private String email;
 
     @NotNull
     @NotBlank
     @Size(max = 100)
-    private Integer initialSamples;
-
-    @NotNull
-    @NotBlank
-    @Size(max = 100)
-    private Long authorId;
+    private String password;
 }

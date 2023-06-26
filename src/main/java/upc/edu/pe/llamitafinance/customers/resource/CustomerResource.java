@@ -9,7 +9,9 @@ import lombok.*;
 @AllArgsConstructor
 public class CustomerResource {
     private Long id;
-    private String textQuery;
-    private Integer initialSamples;
-    private Long authorId;
+    private String firstName;
+    private String lastName;
+    private Integer docNumber;
+    private String address;
+    private Long realEstateId;
 }

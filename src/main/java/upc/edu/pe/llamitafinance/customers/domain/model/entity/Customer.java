@@ -24,15 +24,25 @@ public class Customer extends AuditModel {
     @NotNull
     @NotBlank
     @Size(max = 100)
-    private String textQuery;
+    private String firstName;
 
     @NotNull
     @NotBlank
     @Size(max = 100)
-    private Integer initialSamples;
+    private String lastName;
 
     @NotNull
     @NotBlank
     @Size(max = 100)
-    private Long authorId;
+    private Integer docNumber;
+
+    @NotNull
+    @NotBlank
+    @Size(max = 200)
+    private String address;
+
+    @NotNull
+    @NotBlank
+    @Size(max = 100)
+    private Long realEstateId;
 }
